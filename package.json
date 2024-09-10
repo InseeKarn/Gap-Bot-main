@@ -1,11 +1,10 @@
 {
   "name": "gap-bot-main",
   "version": "1.0.0",
-  "main": "src/index.js",
-  "type": "module",
+  "main": "deploy-commands.js",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +12,6 @@
   "description": "",
   "dependencies": {
     "discord.js": "^14.16.1",
-    "dotenv": "^16.0.0"
+    "nodemon": "^3.1.4"
   }
-
-  
 }
-
